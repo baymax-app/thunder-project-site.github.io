@@ -1,0 +1,254 @@
+body {
+    margin: 0;  
+    background-image: url(./texture-1099399__340.jpg);
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.none {
+    display: none;
+}
+
+.glav {
+    background-image: url(./image1.jpg);
+    color: white;
+    width: 100%;
+    height: 920px;
+}
+
+.logo {
+    width: 80px;
+    margin-left: 80px;
+    margin-top: 28px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.rightMenu {
+    text-align: right;
+    padding: 10px;
+    position: relative;
+    top: -60px;
+    margin-right: 80px;
+    color: white;
+}
+
+.rightMenu .a {
+    color: white;
+    text-decoration: none;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-image: url(./ib.png);
+    background-size: 100%;
+}
+
+.rightMenu a {
+    color: white;
+    text-decoration: none;
+}
+
+.ten {
+    display: inline;
+    margin: 15px;
+}
+
+.tenT {
+    display: inline;
+    margin: 100px;
+}
+
+.big {
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 160px;
+    margin-left: 310px;
+    margin-bottom: 60px;
+}
+
+.bigb {
+    color: black;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 160px;
+    margin-left: 310px;
+    margin-bottom: 60px;
+}
+
+
+.bigMenu {
+    color: white;
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 34px;
+    background-image: url(./i.png);
+    background-size: 100%;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 310px;
+}
+
+.uspeh {
+    background-color: black;
+    position: relative;
+    top: 30%;
+    height: 10vh;
+    display: flex;
+    padding: 5px;
+    padding-left: 10%;
+}
+
+.btn {
+    margin: auto;
+    padding: 10px 25px 10px 25px;
+    background-color: #9e3a4b;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+.igrok {
+    margin: auto;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.numb {
+    margin: auto;
+    margin-right: 25%;
+}
+
+.text {
+    position: relative;
+    top: 2vh;
+    left: -86.5vh;
+    font-weight: medium;
+}
+
+.textT {
+    position: relative;
+    top: 2vh;
+    left: -80vh;
+}
+
+.text2 {
+    position: relative;
+    top: 6vh;
+    left: -104vh;
+    font-weight: medium;
+}
+
+.text2T {
+    position: relative;
+    top: 6vh;
+    left: -32.5vh;
+    font-weight: medium;
+}
+
+.about {
+    display: flex;
+}
+
+.about img {
+    margin: auto;
+    margin-left: 5%;
+    position: relative;
+    top: 100px;
+}
+
+.about div {
+    color: black;
+    margin: auto;
+    position: relative;
+}
+
+.about .div {
+    right: 32%;
+    color: black;
+    margin-left: 15%;
+    font-size: 20px;
+}
+
+.admins {
+    font-family: Impact;
+}
+
+.admins .bigb {
+    position: relative;
+    top: -50px;
+}
+
+.admins img {
+    position: relative;
+    top: 230px;
+    left: 200px;
+}
+
+.admins .admins {
+    display: flex;
+    width: 70%;
+}
+
+.admins .admins div {
+    margin: auto;
+    color: black;
+    font-size: 30px;
+    
+}
+
+.admins .admins img {
+    border-radius: 100%;
+    top: 0;
+    top: -50px;
+    margin-right: 50px;
+}
+
+.margin {
+    margin-bottom: 100px;
+}   
+
+.rightMenu a:hover {
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #94152b;
+}
+
+.about .big {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.about .div {
+    margin-top: 300px;
+    margin-left: 200px;
+    margin-right: 0;
+    width: 200%;
+}
+
+.admins img {
+    top: 160px;
+}
+
+.admin2 .admin2 {
+    width: 191px;
+    right: 0;
+}
+
+@media (max-width > 1000) {
+    .glav {
+        display: none;
+    }
+    .none {
+        display: block;
+    }
+}
