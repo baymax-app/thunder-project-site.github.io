@@ -97,7 +97,7 @@ body {
 .bigMenu {
     color: white;
     text-decoration: none;
-    font-size: 30dpx;
+    font-size: 30px;
     font-weight: bold;
     font-family: sans-serif;
     padding: 34px;
@@ -106,7 +106,8 @@ body {
     padding-top: 50px;
     padding-left: 80px;
     padding-right: 80px;
-    margin: 310px;}
+    margin: 310px;
+}
 
 .uspeh {
     background-color: black;
