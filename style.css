@@ -1,8 +1,8 @@
 body {
     margin: 0;  
     background-image: url(./texture-1099399__340.jpg);
-    width: 100%;
-    background-size: 100%;
+    width: 203vh;
+    background-size: 200vh;
     background-attachment: fixed;
 }
 
@@ -239,11 +239,6 @@ body {
     top: 160px;
 }
 
-.admin2 .admin2 {
-    width: 191px;
-    right: 0;
-}
-
 @media (max-width > 1000) {
     .glav {
         display: none;
@@ -251,4 +246,8 @@ body {
     .none {
         display: block;
     }
+}
+
+.px {
+    width: 191px;
 }
